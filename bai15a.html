@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        label{
+            width: 100px;
+            display: inline-block;
+        }
+    </style>
+</head>
+<body>
+    <h1>Contact us</h1>
+    <form action="#">
+        <fieldset>
+            <legend>Your message</legend>
+            <label for="to">To</label>
+            <input type="text" name="to">
+            <br>
+            <label for="mail">Your email</label>
+            <input type="text" name="mail">
+            <br>
+            <label for="message">Message</label>
+            <textarea name="message" id="" cols="30" rows="10"></textarea>
+            <br>
+        </fieldset>
+        <fieldset>
+            <legend>How you found us</legend>
+            <label for="select">How did you hear of us</label>
+            <select name="select" id="">
+                <option value="Google">Google</option>
+                <option value="Coc Coc">Coc Coc</option>
+                <option value="MS Edge">MS Edge</option>
+            </select>
+            <br>
+            <label for="letter">Newsletter</label>
+            <input type="checkbox" checked>Ensure this box is checked id you would like ti receive email updates
+            <br>
+        </fieldset>
+        <input type="submit" value="Send message">
+    </form>
+</body>
+</html>
