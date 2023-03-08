@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: burlywood;
+        }
+    </style>
+</head>
+<body>
+    <form action="#" ">
+        <h1 style="text-align: center;">Survey Form</h1>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatem autem excepturi eum recusandae consequuntur nobis repellendus temporibus nemo sint accusantium, nulla quia unde facilis, ea ex dolore officia. A sequi doloremque porro, quis quisquam recusandae praesentium reprehenderit veritatis saepe quia?</p>
+        <label for="name">1. What is your name?</label>
+        <br>
+        <input type="text" name="name">
+        <br>
+        <label for="birth">2. What is your date of birth?</label>
+        <br>
+        Month: <select name="month" id="">
+            <option value="January">January</option>
+            <option value="Thang 2">Thang 2</option>
+            <option value="Thang 3">Thang 3</option>
+        </select>
+        Date: <select name="date" id="">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+        </select>
+        Year: <select name="year" id="">
+            <option value="19">19</option>
+            <option value="20">20</option>
+            <option value="21">21</option>
+        </select>
+        <br>
+        <label for="mailing">3. What is your mailing address(if you would like to have a hard copy of out catalog sent to you)?</label>
+        <br>
+        <textarea name="mailing" id="" cols="30" rows="4" placeholder="Number/ P>O. Box/Route:  Street/Avenue/Road:          City:                      State/zip: "></textarea>
+        <br>
+        <label for="address">4. What is your email address?</label>
+        <br>
+        <input type="text" name="address">
+        <br>
+        <label for="catalog">5. Have you viewed product catalog</label>
+        <br>
+        <input type="radio">Yes
+        <input type="radio">No
+        <br>
+        <label for="check">6. If so, what product(s), besides the one you are ordering, might you be interested in purchasing in the future?(Check all that apply)</label>
+        <br>
+        <input type="checkbox">VCR
+        <br>
+        <input type="checkbox">Big Screen TV
+        <br>
+        <input type="checkbox">Audio Equipment
+        <br>
+        <input type="checkbox">Video Equipment
+        <br>
+        <input type="checkbox">Camera Equipment
+        <br>
+        <input type="checkbox" checked>Orther <input type="text" placeholder="Please List">
+        <br>
+        <label for="question">7. Do you have any questions, comments of suggestions before proceeding to the Order form?</label>
+        <br>
+        <textarea name="question" id="" cols="30" rows="6" placeholder="Your input: "></textarea>
+       <br>
+       <div style="text-align: center;">
+        <input type="submit" value="Send form" >
+        <input type="submit" value="Clear form">
+       </div>
+    </form>
+</body>
+</html>
